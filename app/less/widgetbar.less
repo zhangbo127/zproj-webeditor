@@ -1,0 +1,25 @@
+@import "vars";
+
+.we-widgetbar-dialog {
+	z-index: @we-widgetbar-dialog-zIndex;
+}
+
+#we-widgetbar {
+	display: none;
+	.we-widget {
+		display: block;
+		width: 70px;
+		height: 30px;
+		background-color: #fff;
+		line-height: 30px;
+		text-align: center;
+		color: #333;
+	}
+}
+
+.we-widget-dragging {
+	#we-widgetbar > .we-widget;
+	border: solid 1px #ddd;
+	border-radius: 2px;
+	box-shadow: 0 0 5px #ddd;
+}

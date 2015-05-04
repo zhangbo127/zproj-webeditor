@@ -1,0 +1,32 @@
+.we-layeroptbar-dialog {
+  z-index: 10002;
+}
+.we-layeroptbar-list {
+  width: 400px;
+}
+.we-layeroptbar {
+  position: relative;
+}
+.we-layeroptbar fieldset {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+.we-layeroptbar fieldset legend {
+  line-height: 22px;
+}
+.we-layeroptbar table tr td {
+  padding: 0 5px;
+  vertical-align: middle;
+}
+.we-layeroptbar .we-slider {
+  width: 80px;
+}
+.we-layeroptbar .we-spinner {
+  width: 30px;
+}
+.we-layeroptbar .we-number {
+  width: 40px;
+}
+#we-layeroptbar-text {
+  width: 100%;
+}

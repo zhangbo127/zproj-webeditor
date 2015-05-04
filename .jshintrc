@@ -1,0 +1,43 @@
+{
+    "bitwise": false,
+    "camelcase": true,
+    "curly": true,
+    "eqeqeq": false,
+    "es3": true,
+    "forin": false,
+    "freeze": false,
+    "funcscope": true,
+    "globals": {
+		"module": true,
+		"define": true,
+		"require": true,
+		"requirejs": true,
+		"$": true,
+		"jQuery": true,
+		"_": true,
+		"we": true
+	},
+	"immed": true,
+    "indent": 4,
+    "latedef": true,
+    "newcap": true,
+    "noarg": false,
+    "noempty": false,
+    "nonew": false,
+    "plusplus": false,
+    "quotmark": "single",
+    "strict": false,
+    "sub": true,
+    "trailing": true,
+    "undef": true,
+    "unused": true,
+    "multistr": false,
+
+    "asi": true,
+    "eqnull": true,
+    "esnext": true,
+
+    "browser": true,
+    "devel": true,
+    "jquery": true
+}

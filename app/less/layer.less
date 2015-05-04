@@ -1,0 +1,148 @@
+@import "vars";
+
+// 图层
+.we-layer {
+	position: absolute;
+	left: 0;
+	top: 0;
+	.we-content{
+		height: 100%;
+		background-color: #f90;
+	}
+}
+
+// 激活的图层
+.we-layer-active {
+	.we-layer-resizablebox {
+		.ui-resizable-handle {
+			display: block;
+		}
+	}
+}
+
+// 图层可改变大小框
+.we-layer-resizablebox {
+
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 0;
+	width: 100%;
+	height: 100%;
+
+	.we-resizable-placeholder,
+	.ui-resizable-handle {
+		position: absolute;
+		z-index: 1;
+		display: none;
+		width: 3px;
+		height: 3px;
+	}
+
+	.ui-resizable-handle .we-resizable-node {
+		position: absolute;
+		width: 7px;
+		height: 7px;
+		background-color: @we-layer-resizable-color;
+	}
+
+	// 左上
+	.ui-resizable-nw {
+		left: 0;
+		top: 0;
+		cursor: nw-resize;
+		.we-resizable-node {
+			top: -3px;
+			left: -3px;
+		}
+	}
+
+	// 上
+	.we-placeholder-n,
+	.ui-resizable-n {
+		left: 0;
+		top: 0;
+		width: 100%;
+		border-top: @we-layer-resizable-border;
+		cursor: n-resize;
+	}
+	.ui-resizable-n .we-resizable-node {
+		left: 50%;
+		top: -4px;
+	}
+
+	// 右上
+	.ui-resizable-ne {
+		right: 0;
+		top: 0;
+		cursor: ne-resize;
+		.we-resizable-node {
+			top: -3px;
+			right: -3px;
+		}
+	}
+
+	// 左
+	.we-placeholder-w,
+	.ui-resizable-w {
+		left: 0;
+		top: 0;
+		height: 100%;
+		border-left: @we-layer-resizable-border;
+		cursor: w-resize;
+	}
+	.ui-resizable-w .we-resizable-node {
+		top: 50%;
+		left: -4px;
+	}
+
+	// 右
+	.we-placeholder-e,
+	.ui-resizable-e {
+		right: 0;
+		top: 0;
+		height: 100%;
+		border-right: @we-layer-resizable-border;
+		cursor: e-resize;
+	}
+	.ui-resizable-e .we-resizable-node {
+		top: 50%;
+		right: -4px;
+	}
+
+	// 下左
+	.ui-resizable-sw {
+		left: 0;
+		bottom: 0;
+		cursor: sw-resize;
+		.we-resizable-node {
+			bottom: -3px;
+			left: -3px;
+		}
+	}
+
+	// 下
+	.we-placeholder-s,
+	.ui-resizable-s {
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		border-bottom: @we-layer-resizable-border;
+		cursor: s-resize;
+	}
+	.ui-resizable-s .we-resizable-node {
+		left: 50%;
+		bottom: -4px;
+	}
+
+	// 下右
+	.ui-resizable-se {
+		right: 0;
+		bottom: 0;
+		cursor: se-resize;
+		.we-resizable-node {
+			bottom: -3px;
+			right: -3px;
+		}
+	}
+}

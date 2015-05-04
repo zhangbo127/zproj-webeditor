@@ -1,0 +1,74 @@
+@import "vars";
+
+#we-ruler-h,
+#we-ruler-v {
+	position: fixed;
+	left: 0;
+	top: 50px;
+	z-index: @we-ruler-zIndex;
+	cursor: pointer;
+	.we-ruler-inner {
+		position: relative;
+	}
+}
+
+#we-ruler-h {
+	width: 100%;
+	height: 21px;
+	background: url(../img/we-ruler-h.gif) repeat-x 0 0;
+	.we-ruler-inner {
+		width: 100%;
+		height: 21px;
+		background: url(../img/we-ruler-h-inner.gif) no-repeat 0 0;
+	}
+}
+
+#we-ruler-v {
+	width: 21px;
+	height: 100%;
+	background: url(../img/we-ruler-v.gif) repeat-y 0 0;
+	.we-ruler-inner {
+		width: 21px;
+		height: 500%;
+		background: url(../img/we-ruler-v-inner.gif) no-repeat 0 0;
+	}
+}
+
+.we-line-h,
+.we-line-v {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	cursor: move;
+	.we-coord {
+		position: absolute;
+		width: auto;
+		padding: 0 5px;
+		border: solid 1px #111;
+		background-color: #fff;
+		line-height: 18px;
+		color: #333;
+	}
+}
+
+.we-line-h {
+	height: 1px;
+	background: url(../img/we-line-h.gif) repeat-x center;
+	.we-coord {
+		float: left;
+		top: 0;
+		left: 26px;
+		transform: translate(0, -50%);
+	}
+}
+
+.we-line-v {
+	width: 1px;
+	background: url(../img/we-line-v.gif) repeat-y center;
+	.we-coord {
+		top: 26px;
+		left: 0;
+		transform: translate(-50%, 0);
+	}
+}

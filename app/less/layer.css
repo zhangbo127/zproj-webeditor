@@ -1,0 +1,118 @@
+.we-layer {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.we-layer .we-content {
+  height: 100%;
+  background-color: #f90;
+}
+.we-layer-active .we-layer-resizablebox .ui-resizable-handle {
+  display: block;
+}
+.we-layer-resizablebox {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+}
+.we-layer-resizablebox .we-resizable-placeholder,
+.we-layer-resizablebox .ui-resizable-handle {
+  position: absolute;
+  z-index: 1;
+  display: none;
+  width: 3px;
+  height: 3px;
+}
+.we-layer-resizablebox .ui-resizable-handle .we-resizable-node {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  background-color: #2eaeff;
+}
+.we-layer-resizablebox .ui-resizable-nw {
+  left: 0;
+  top: 0;
+  cursor: nw-resize;
+}
+.we-layer-resizablebox .ui-resizable-nw .we-resizable-node {
+  top: -3px;
+  left: -3px;
+}
+.we-layer-resizablebox .we-placeholder-n,
+.we-layer-resizablebox .ui-resizable-n {
+  left: 0;
+  top: 0;
+  width: 100%;
+  border-top: solid 1px #2eaeff;
+  cursor: n-resize;
+}
+.we-layer-resizablebox .ui-resizable-n .we-resizable-node {
+  left: 50%;
+  top: -4px;
+}
+.we-layer-resizablebox .ui-resizable-ne {
+  right: 0;
+  top: 0;
+  cursor: ne-resize;
+}
+.we-layer-resizablebox .ui-resizable-ne .we-resizable-node {
+  top: -3px;
+  right: -3px;
+}
+.we-layer-resizablebox .we-placeholder-w,
+.we-layer-resizablebox .ui-resizable-w {
+  left: 0;
+  top: 0;
+  height: 100%;
+  border-left: solid 1px #2eaeff;
+  cursor: w-resize;
+}
+.we-layer-resizablebox .ui-resizable-w .we-resizable-node {
+  top: 50%;
+  left: -4px;
+}
+.we-layer-resizablebox .we-placeholder-e,
+.we-layer-resizablebox .ui-resizable-e {
+  right: 0;
+  top: 0;
+  height: 100%;
+  border-right: solid 1px #2eaeff;
+  cursor: e-resize;
+}
+.we-layer-resizablebox .ui-resizable-e .we-resizable-node {
+  top: 50%;
+  right: -4px;
+}
+.we-layer-resizablebox .ui-resizable-sw {
+  left: 0;
+  bottom: 0;
+  cursor: sw-resize;
+}
+.we-layer-resizablebox .ui-resizable-sw .we-resizable-node {
+  bottom: -3px;
+  left: -3px;
+}
+.we-layer-resizablebox .we-placeholder-s,
+.we-layer-resizablebox .ui-resizable-s {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-bottom: solid 1px #2eaeff;
+  cursor: s-resize;
+}
+.we-layer-resizablebox .ui-resizable-s .we-resizable-node {
+  left: 50%;
+  bottom: -4px;
+}
+.we-layer-resizablebox .ui-resizable-se {
+  right: 0;
+  bottom: 0;
+  cursor: se-resize;
+}
+.we-layer-resizablebox .ui-resizable-se .we-resizable-node {
+  bottom: -3px;
+  right: -3px;
+}

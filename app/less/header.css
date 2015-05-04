@@ -1,0 +1,32 @@
+#we-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20000;
+  width: 100%;
+  height: 50px;
+  background-color: #222;
+  box-shadow: 0 5px 10px #666666;
+  overflow: hidden;
+}
+#we-header .we-logo {
+  width: 200px;
+  height: 100%;
+}
+#we-header .we-menubar {
+  height: 28px;
+  padding: 10px;
+}
+#we-header .we-menubar a.we-menu {
+  display: block;
+  margin: 0 0 0 10px;
+  padding: 0 10px;
+  border: 1px solid #000;
+  border-radius: 2px;
+  box-shadow: inset 1px 1px 0 #555555;
+  line-height: 28px;
+  color: #ddd;
+}
+#we-header .we-menubar a.we-menu:hover {
+  color: #fff;
+}

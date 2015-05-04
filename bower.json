@@ -1,0 +1,64 @@
+{
+  "name": "webeditor",
+  "version": "0.1.0",
+  "description": "a website editor",
+  "authors": [
+    "z"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "1.11.2",
+    "jquery-ui": "~1.11.2",
+    "requirejs": "~2.1.15",
+    "reset-css": "~2.0.20110126",
+    "underscore": "~1.7.0",
+    "requirejs-json": "~0.0.3",
+    "underscore.string": "~3.0.2",
+    "knockout": "~3.2.0",
+    "knockout-jqueryui": "~2.2.2",
+    "requirejs-tpl": "*"
+  },
+  "exportsOverride": {
+    "jquery": {
+      "js/lib/jquery": "dist/jquery.js"
+    },
+    "jquery-ui": {
+      "js/lib/jquery": "jquery-ui.js",
+      "css/jquery-ui/themes/smoothness": "themes/smoothness"
+    },
+    "requirejs": {
+      "js/lib/requirejs": "require.js"
+    },
+    "requirejs-text": {
+      "js/lib/requirejs": "text.js"
+    },
+    "requirejs-tpl": {
+      "js/lib/requirejs": "tpl.js"
+    },
+    "requirejs-json": {
+      "js/lib/requirejs": "json.js"
+    },
+    "underscore": {
+      "js/lib/underscore": "underscore.js"
+    },
+    "underscore.string": {
+      "js/lib/underscore": "dist/underscore.string.js"
+    },
+    "knockout": {
+      "js/lib/knockout": "dist/knockout.debug.js"
+    },
+    "knockout-jqueryui": {
+      "js/lib/knockout": "dist/knockout-jqueryui.js"
+    },
+    "reset-css": {
+      "css": "reset.css"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+	"left": 0,
+	"top": 0,
+	"zIndex": 0,
+	"width": 200,
+	"height": 200,
+
+	"backgroundColor": "transparent",
+	"backgroundImage": "none",
+	"backgroundRepeat": "no-repeat",
+	"backgroundPosition": "left top",
+
+	"padding": 0,
+	"borderTopWidth": 0,
+	"borderTopStyle": "solid",
+	"borderTopColor": "white",
+	"borderRightWidth": 0,
+	"borderRightStyle": "solid",
+	"borderRightColor": "white",
+	"borderBottomWidth": 0,
+	"borderBottomStyle": "solid",
+	"borderBottomColor": "white",
+	"borderLeftWidth": 0,
+	"borderLeftStyle": "solid",
+	"borderLeftColor": "white",
+
+	"text": ""
+}
