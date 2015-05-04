@@ -5,7 +5,7 @@ require.config({
 
 	baseUrl: 'js',
 
-	urlArgs: 'debug=' + new Date().now,
+	urlArgs: 'debug=' + Date.now(),
 
 	waitSeconds: 6000,
 
