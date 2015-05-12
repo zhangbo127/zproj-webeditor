@@ -5,7 +5,8 @@ define([
 	'tpl!we/layeroptbar/text/main.tpl',
 	'WeLayeroptbarBase',
 	'WeLayermng',
-	'WeUtil'
+	'WeUtil',
+	'knockout-jqueryui'
 ], function (WeLayeroptbarTextTpl, WeLayeroptbarBase, WeLayermng, WeUtil) {
 
 	/**
