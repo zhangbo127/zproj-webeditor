@@ -14,8 +14,9 @@ require.config({
 		'jquery': 'lib/jquery/jquery',
 		'jquery-ui': 'lib/jquery/jquery-ui',
 
-		'knockout': 'lib/knockout/knockout.debug',
-		'knockout-jqueryui': 'lib/knockout/knockout-jqueryui',
+		'knockout': 'lib/knockout/knockout',
+		'knockout-jqueryui': 'lib/knockout/knockout-jqueryui-custom',
+		'knockout-jqueryui-default': 'lib/knockout/knockout-jqueryui',
 
 		'underscore': 'lib/underscore/underscore',
 		'underscore.string': 'lib/underscore/underscore.string',
@@ -49,14 +50,15 @@ require.config({
 			'exports': '$'
 		},
 		'jquery-ui': {
-			'deps': ['jquery']
+			'deps': ['jquery'],
+			'exports': '$.ui'
 		},
 
 		'knockout': {
 			'exports': 'ko'
 		},
 		'knockout-jqueryui': {
-			'deps': ['knockout'],
+			'deps': ['jquery', 'jquery-ui', 'knockout'],
 			'exports': 'kojqui'
 		},
 
@@ -71,6 +73,4 @@ require.config({
 
 });
 
-require(['lib/common'], function () {
-	require(['WeHeader', 'WeWidgetbar', 'WeLayermng', 'WeLayeroptbarmng']);
-});
+require(['WeHeader', 'WeWidgetbar', 'WeLayermng', 'WeLayeroptbarmng']);
