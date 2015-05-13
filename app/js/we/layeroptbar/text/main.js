@@ -6,8 +6,11 @@ define([
 	'WeLayeroptbarBase',
 	'WeLayermng',
 	'WeUtil',
+	'jquery',
+	'knockout',
+	'jquery-ui',
 	'knockout-jqueryui'
-], function (WeLayeroptbarTextTpl, WeLayeroptbarBase, WeLayermng, WeUtil) {
+], function (WeLayeroptbarTextTpl, WeLayeroptbarBase, WeLayermng, WeUtil, $, ko) {
 
 	/**
 	 * 构造函数

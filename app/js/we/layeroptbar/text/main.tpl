@@ -152,7 +152,7 @@
 			</tr>
 			<tr>
 				<td>
-					<img src="error.gif" alt="" width="100" height="100"/>
+					<img src="" alt="" width="100" height="100"/>
 				</td>
 				<td></td>
 				<td></td>
