@@ -52,7 +52,7 @@
       "js/lib/underscore": "dist/underscore.string.js"
     },
     "knockout": {
-      "js/lib/knockout": "dist/knockout.debug.js"
+      "js/lib/knockout": "dist/knockout.js"
     },
     "knockout-jqueryui": {
       "js/lib/knockout": "dist/knockout-jqueryui.js"
