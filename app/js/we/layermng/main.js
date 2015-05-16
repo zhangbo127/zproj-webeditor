@@ -4,8 +4,10 @@
 define([
 	'WeCanvas',
 	'WeLayerBase',
-	'WeLayerText'
-], function (WeCanvas, WeLayerBase, WeLayerText) {
+	'WeLayerText',
+	'jquery',
+	'jquery-ui'
+], function (WeCanvas, WeLayerBase, WeLayerText, $) {
 
 	window.we = window.we || {};
 

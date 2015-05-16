@@ -1,7 +1,7 @@
 /**
  * 浏览器窗口
  */
-define(function () {
+define(['jquery'], function ($) {
 
 	window.we = window.we || {};
 
@@ -54,5 +54,4 @@ define(function () {
 	});
 
 	return my;
-
 });

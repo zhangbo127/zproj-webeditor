@@ -7,8 +7,10 @@ define([
 	'WeWrapper',
 	'WeLayermng',
 	'WeLayerBase',
-	'WeLayeroptbarText'
-], function (tplLayeroptbarmng, WeWin, WeWrapper, WeLayermng, WeLayerBase, WeLayeroptbarText) {
+	'WeLayeroptbarText',
+	'jquery',
+	'jquery-ui'
+], function (tplLayeroptbarmng, WeWin, WeWrapper, WeLayermng, WeLayerBase, WeLayeroptbarText, $) {
 
 	window.we = window.we || {};
 

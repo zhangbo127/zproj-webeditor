@@ -8,8 +8,10 @@ define([
 	'tpl!we/ruler/main.tpl',
 	'WeWin',
 	'WeWrapper',
-	'WeCanvas'
-], function (WeRulerTpl, WeWin, WeWrapper, WeCanvas) {
+	'WeCanvas',
+	'jquery',
+	'jquery-ui'
+], function (WeRulerTpl, WeWin, WeWrapper, WeCanvas, $) {
 
 	window.we = window.we || {};
 

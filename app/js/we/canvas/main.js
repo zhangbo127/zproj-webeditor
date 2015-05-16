@@ -2,8 +2,9 @@
  * 画布
  */
 define([
-	'WeWin'
-], function (WeWin) {
+	'WeWin',
+	'jquery'
+], function (WeWin, $) {
 
 	window.we = window.we || {};
 

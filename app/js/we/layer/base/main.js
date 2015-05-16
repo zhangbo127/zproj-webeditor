@@ -2,8 +2,11 @@
  * 图层基类
  */
 define([
-	'WeCanvas'
-], function (WeCanvas) {
+	'WeCanvas',
+	'jquery',
+	'underscore',
+	'jquery-ui',
+], function (WeCanvas, $, _) {
 
 	// 构造函数
 	var WeLayerBase = function () {

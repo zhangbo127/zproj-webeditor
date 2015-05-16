@@ -6,8 +6,10 @@ define([
 	'WeWin',
 	'WeWrapper',
 	'WeCanvas',
-	'WeLayermng'
-], function (WeWidgetbarTpl, WeWin, WeWrapper, WeCanvas, WeLayermng) {
+	'WeLayermng',
+	'jquery',
+	'jquery-ui'
+], function (WeWidgetbarTpl, WeWin, WeWrapper, WeCanvas, WeLayermng, $) {
 
 	window.we = window.we || {};
 

@@ -4,8 +4,9 @@
 define([
 	'tpl!we/header/main.tpl',
 	'WeWrapper',
-	'WeRuler'
-], function (WeHeaderTpl, WeWrapper, WeRuler) {
+	'WeRuler',
+	'jquery'
+], function (WeHeaderTpl, WeWrapper, WeRuler, $) {
 
 	window.we = window.we || {};
 

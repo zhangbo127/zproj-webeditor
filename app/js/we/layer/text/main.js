@@ -6,8 +6,11 @@ define([
 	'json!we/layer/text/opts.json',
 	'WeLayerBase',
 	'WeCanvas',
-	'WeUtil'
-], function (WeLayerTextTpl, WeLayerTextOpts, WeLayerBase, WeCanvas, WeUtil) {
+	'WeUtil',
+	'jquery',
+	'underscore',
+	'jquery-ui'
+], function (WeLayerTextTpl, WeLayerTextOpts, WeLayerBase, WeCanvas, WeUtil, $, _) {
 
 	/**
 	 * 构造函数

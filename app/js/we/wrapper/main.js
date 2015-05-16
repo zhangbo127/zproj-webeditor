@@ -1,7 +1,7 @@
 /**
  * 外层
  */
-define(function () {
+define(['jquery'], function ($) {
 
 	window.we = window.we || {};
 
