@@ -14,11 +14,12 @@ require.config({
 		'jquery': 'lib/jquery/jquery',
 		'jquery-ui': 'lib/jquery/jquery-ui',
 
-		'knockout': 'lib/knockout/knockout',
-		'knockout-jqueryui': 'lib/knockout/knockout-jqueryui-custom',
-		'knockout-jqueryui-default': 'lib/knockout/knockout-jqueryui',
+		'knockout': 'lib/knockout/knockout-custom',
+		'knockout-default': 'lib/knockout/knockout',
+		'knockout-jqueryui': 'lib/knockout/knockout-jqueryui',
 
-		'underscore': 'lib/underscore/underscore',
+		'underscore': 'lib/underscore/underscore-custom',
+		'underscore-default': 'lib/underscore/underscore',
 		'underscore.string': 'lib/underscore/underscore.string',
 
 		'text': 'lib/requirejs/text',
@@ -57,17 +58,23 @@ require.config({
 		'knockout': {
 			'exports': 'ko'
 		},
+		'knockout-default': {
+			'exports': 'ko'
+		},
 		'knockout-jqueryui': {
 			'deps': ['jquery', 'jquery-ui', 'knockout'],
 			'exports': 'kojqui'
 		},
 
+
 		'underscore': {
 			'exports': '_'
 		},
+		'underscore-default': {
+			'exports': '_'
+		},
 		'underscore.string': {
-			'deps': ['underscore'],
-			'exports': '_s'
+			'exports': '_str'
 		}
 	}
 
